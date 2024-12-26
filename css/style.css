@@ -317,7 +317,7 @@ body {
   display: flex;
   gap: 5px;
 }
-desktop23, [25.12.2024 15: 46] .episodes__top {
+.episodes__top {
   display: flex;
   justify-content: space-between;
   padding-bottom: 66px;
@@ -561,7 +561,7 @@ desktop23, [25.12.2024 15: 46] .episodes__top {
   width: 100%;
 }
 
-desktop23, [25.12.2024 15: 46] .stars {
+.stars {
   display: flex;
   gap: 5px;
 }
