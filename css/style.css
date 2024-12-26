@@ -114,3 +114,46 @@ body {
   position: absolute;
   left: 557px;
 }
+.episodes__top {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 66px;
+  padding-top: 80px;
+}
+.episodes__title {
+  font-size: 64px;
+  width: 500px;
+  font-weight: 400;
+  letter-spacing: 2.88px;
+}
+.episodes__link {
+  font-size: 17px;
+  border: 1px solid #118da8;
+  background-color: #118da8;
+  width: 178px;
+  height: 51px;
+  border-radius: 6px;
+  padding: 17px;
+  margin-top: 45px;
+  text-align: center;
+}
+
+.episodes__item {
+  background-color: #000;
+  /* /* width: 1125px; */
+  height: 600px;
+  margin: 0 auto;
+  border-radius: 32px;
+  margin-bottom: 50px;
+}
+.episode__item-three,
+.episode__item-two,
+.episode__item-one {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-top: 40px;
+}
+.episode-img {
+  padding-left: 30px;
+  height: 500px;
+}
