@@ -3,26 +3,68 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Castaway Header</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="css/style.css" />
+    <title>Castaway</title>
   </head>
   <body>
-    <header class="header">
-      <div class="container">
-        <a href="#" class="logo">Castaway</a>
+    <div class="container">
+      <header class="header">
         <nav class="nav">
-          <ul class="ul">
-            <li><a href="#" class="active">Home</a></li>
-            <li><a href="#">Episodes</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
+          <a class="logo" href="#">
+            <img class="logo-img" src="img/logo.png" alt="logo" />
+          </a>
+          <ul class="header-menu">
+            <li class="header-menu__item header-menu__tik--active">
+              <a class="header__link" href="index.html">Home</a>
+            </li>
+            <li class="header-menu__item">
+              <a class="header__link" href="#episodes">Episodes</a>
+            </li>
+            <li class="header-menu__item">
+              <a class="header__link" href="#about">About</a>
+            </li>
+            <li class="header-menu__item">
+              <a class="header__link" href="#contact">Contact</a>
+            </li>
           </ul>
         </nav>
-      </div>
-    </header>
+      </header>
+
+      <main class="main">
+        <div class="top">
+          <img src="img/Frame.png" alt="photo" class="top-photo" />
+          <div class="top__right">
+            <p class="top__subtitle">
+              Take your podcast to the <span>next</span> level
+            </p>
+            <p class="top__text">Listen on</p>
+            <div class="top__link-item">
+              <a class="top__link" href="#"
+                ><img class="top-img" src="img/1.svg" alt="img"
+              /></a>
+              <a class="top__link" href="#"
+                ><img src="img/2.svg" alt="img" class="top-img"
+              /></a>
+              <a class="top__link" href="#"
+                ><img src="img/3.svg" alt="img" class="top-img"
+              /></a>
+              <a class="top__link" href="#"
+                ><img src="img/4.svg" alt="img" class="top-img"
+              /></a>
+              <a class="top__link" href="#"
+                ><img src="img/5.svg" alt="img" class="top-img"
+              /></a>
+            </div>
+          </div>
+        </div>
+
+        
     </div>
   </body>
 </html>
